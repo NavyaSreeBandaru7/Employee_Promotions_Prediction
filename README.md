@@ -155,9 +155,13 @@ Interpretability
 The XGBoost model's decisions were interpreted using SHAP (SHapley Additive exPlanations) values, which provide detailed insights into how each feature contributes to individual predictions.
 
 The SHAP analysis revealed:
+
 •	Threshold effects: Certain metrics (like previous year rating) have clear thresholds above which promotion probability increases dramatically
+
 •	Interaction effects: Some features (like age and length of service) interact in complex ways that simple correlation analysis might miss
+
 •	Clustering validation: The clustering-derived features show consistent patterns of influence, validating the unsupervised learning approach
+
 •	Department-specific patterns: The model learns different expectations for different departments, aligning with organizational realities
 
 Limitations
